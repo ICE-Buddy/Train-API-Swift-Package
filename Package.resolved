@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "354dda32d89fc8cd4f5c46487f64957d355f53d8",
+        "version" : "5.6.1"
+      }
+    },
+    {
+      "identity" : "fredkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/frogg/FredKit",
+      "state" : {
+        "revision" : "bb465a18b47ed01c8487e08c3a106e89e6ad0b81",
+        "version" : "0.1.42"
+      }
+    }
+  ],
+  "version" : 2
+}

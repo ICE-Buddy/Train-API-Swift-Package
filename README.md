@@ -3,7 +3,7 @@
 Offering a simple Swift API for real-time tain/travel-information.
 
 ## ICE API
-This Swift Package has been developed to power [ICE Buddy](ice-buddy.riedel.wtf).
+This Swift Package has been developed to power [ICE Buddy](https://ice-buddy.riedel.wtf).
 
 ### On-Board Server
 This Swift Package connects to the on-board server of ICE trains, so connecting to the WiFi@DB or WiFionICE is mandatory.

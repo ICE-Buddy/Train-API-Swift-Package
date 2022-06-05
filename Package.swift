@@ -28,6 +28,9 @@ let package = Package(
             dependencies: [
                 "Alamofire",
                 "FredKit"
+            ],
+            resources: [
+                .process("Resources")
             ]
         ),
         .testTarget(

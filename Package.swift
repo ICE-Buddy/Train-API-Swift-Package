@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Train-API",
+    name: "Train-API-Swift-Package",
     platforms: [
         .macOS(.v10_12),
         .iOS(.v12)
@@ -12,7 +12,7 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "Train-API",
+            name: "Train-API-Swift-Package",
             targets: ["Train-API"]),
     ],
     dependencies: [

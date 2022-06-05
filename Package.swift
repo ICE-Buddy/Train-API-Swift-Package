@@ -30,7 +30,8 @@ let package = Package(
                 "FredKit"
             ],
             resources: [
-                .process("Resources")
+                .process("Debug Data/ice.json"),
+                .process("Debug Data/paris.json")
             ]
         ),
         .testTarget(

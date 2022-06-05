@@ -22,7 +22,7 @@ public class ICEConnection {
                 completion(metaData)
             } else {
 #if DEBUG
-                if let data = try? Data(contentsOf: Bundle.main.url(forResource: "ice", withExtension: "json")!) {
+                if let data = try? Data(contentsOf: Bundle.module.url(forResource: "ice", withExtension: "json")!) {
                     let jsonResult = try? JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
                     if let jsonResult = jsonResult as? [String: Any] {
                         let metaData = TrainMetaData(dict: jsonResult)
@@ -49,7 +49,7 @@ public class ICEConnection {
 #if DEBUG
 
                 
-                if let data = try? Data(contentsOf: Bundle.main.url(forResource: "paris", withExtension: "json")!) {
+                if let data = try? Data(contentsOf: Bundle.module.url(forResource: "paris", withExtension: "json")!) {
                     let jsonResult = try? JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
                     if let jsonResult = jsonResult as? [String: Any] {
                         let metaData = TripData(dict: jsonResult)
